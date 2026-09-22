@@ -14,8 +14,8 @@ To preserve the double-blind peer-review process, all personal identifiers and a
 │   ├── data_freq_unigrams.csv                   # Document-term matrix (unigrams) for CA & Clustering
 │   ├── data_processed_clusters.csv              # Article dataset with assigned cluster variables
 │   ├── qualitative_coding_matrix.csv            # Qualitative coding presence/absence matrix (n=20)
-│   ├── qualitative_codebook_and_quotations.doc  # Full qualitative report (codes & original quotations)
-│   └── Qualitative_Analysis_PGRFA.atlasti       # Complete ATLAS.ti project bundle (quotations, codes & memos)
+│   ├── qualitative_codebook_and_quotations.doc  # Full qualitative report (codes & quotations)
+│   └── Qualitative_Analysis_PGRFA.atlasti       # Complete ATLAS.ti project bundle (codes & quotations)
 ├── scripts/
 │   ├── 2. Author Region vs. Case Study Region Distribution.R
 │   ├── 3.Correspondence Analysis and K-means.R
