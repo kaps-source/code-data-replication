@@ -43,7 +43,7 @@ install.packages(c(
 ```
 ## Qualitative Analysis Access Options
 * **ATLAS.ti Project Bundle (`data/Qualitative_Analysis_PGRFA.atlasti`):** Recommended to access the full interactive qualitative analysis, including the complete code hierarchy and coded quotations (requires ATLAS.ti v9+).
-* **Qualitative Coding Report (`data/qualitative_codebook_and_quotations.pdf`):** A standalone document for reviewers without an ATLAS.ti license. It includes all coding categories and original text quotations to provide direct access to qualitative evidence
+* **Qualitative Coding Report (`data/qualitative_codebook_and_quotations.doc`):** A standalone document for reviewers without an ATLAS.ti license. It includes all coding categories and original text quotations to provide direct access to qualitative evidence
 ---
 
 ## Execution Workflow
