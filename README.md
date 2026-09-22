@@ -13,7 +13,8 @@ To preserve the double-blind peer-review process, all personal identifiers and a
 ├── data/
 │   ├── data_freq_unigrams.csv           # Document-term matrix (unigrams) for CA & Clustering
 │   ├── data_processed_clusters.csv       # Article dataset with assigned cluster variables
-│   └── qualitative_coding_matrix.csv     # Qualitative coding presence/absence matrix (n=20)
+│   ├── qualitative_coding_matrix.csv     # Qualitative coding presence/absence matrix (n=20)
+│   └── Qualitative_Analysis_PGRFA.atlasti # Complete ATLAS.ti project bundle (quotations & codes)
 ├── scripts/
 │   ├── 2. Author Region vs. Case Study Region Distribution.R
 │   ├── 3.Correspondence Analysis and K-means.R
@@ -39,7 +40,9 @@ install.packages(c(
   "tidytext", "scales", "rstatix", "patchwork", "pheatmap"
 ))
 ```
-
+## Qualitative Analysis Software
+* **ATLAS.ti (v22/v23/v24/v25):** Recommended to access the full qualitative analysis, including the complete code hierarchy, coded quotations, and thematic memos (`data/Qualitative_Analysis_PGRFA.atlasti`).
+* **Open Access Alternative:** Non-ATLAS.ti users can inspect the reduced presence/absence matrix used to compute the heatmap directly via `data/qualitative_coding_matrix.csv`.
 ---
 
 ## Execution Workflow
