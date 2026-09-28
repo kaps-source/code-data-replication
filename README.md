@@ -2,6 +2,8 @@
 
 This repository contains the full data preprocessing pipeline, quantitative text analysis, Correspondence Analysis (CA), k-means clustering, geopolitical tests, and qualitative heatmap visualization presented in the manuscript.
 
+Note on raw text data: Raw full-text files (.txt) for the 107 articles are omitted from this public repository to respect publisher copyright restrictions. However, all transformed, preprocessed, and analytical datasets required to fully reproduce the study are provided in the data/directory.
+
 ---
 
 ## Repository Structure
@@ -24,18 +26,18 @@ This repository contains the full data preprocessing pipeline, quantitative text
 ├── LICENSE
 └── README.md
 ```
-#Note on raw text data: Raw full-text files (.txt) for the 107 articles are omitted from this public repository to respect publisher copyright restrictions. However, all transformed, preprocessed, and analytical datasets required to fully reproduce the study are provided in the data/ directory.
 ---
 
 ## Requirements
-#Python Environment (Text Preprocessing)
--Python 3.8+
--Required Libraries: `pandas, nltk, xlsxwriter`
--NLTK Resources: `stopwords, words, wordnet`(automatically downloaded upon script execution if missing).
+
+# Python Environment (Text Preprocessing)
+* **Python 3.8+**
+* **Required Libraries**: `pandas, nltk, xlsxwriter`
+* **NLTK Resources**: `stopwords, words, wordnet`(automatically downloaded upon script execution if missing).
 
 # R Packages
--R 4.0+
--The analysis requires the following R libraries:
+* **R 4.0+**
+* **The analysis requires the following R libraries**:
 
 ```R
 install.packages(c(
